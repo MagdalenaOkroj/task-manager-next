@@ -120,6 +120,7 @@ body {
 .btn-add:hover {
   background-color: #eff6ff;
   border-radius: 4px;
+  border: 1px solid #2563eb;
 }
 
 .btn-save {
@@ -150,10 +151,18 @@ body {
 .btn-delete:hover {
   background-color: #fef2f2;
   border-radius: 4px;
+  border: 1px solid #dc2626;
 }
 
 .btn-done {
+  color: #16a34a;
   padding: 4px 8px;
+}
+
+.btn-done:hover {
+  background-color: #f0fdf4;
+  border-radius: 4px;
+  border: 1px solid #16a34a;
 }
 
 /* Task Liste */
@@ -165,13 +174,17 @@ body {
 /* Task Eintrag */
 .task-item {
   display: flex;
-  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;                        /* Schriftgröße */
+/*   border-bottom: 1px solid #e5e5e5; */ /* alte Rahmenfarbe für die Einträge */
   min-height: 42px;
   align-items: center;
   cursor: pointer;
   background-color: rgb(255, 204, 204);  /* Hintergrundfarbe für unerledigte Aufgaben */
   border-radius: 5px;                       /* Ecken abrunden je Zeile */
-  border: lightskyblue 1.5px solid;   /* Rahmenfarbe je Zeile */
+  border-top: lightskyblue 1px solid;   /* Rahmenfarbe oben */
+  border-left: lightskyblue 2px solid;   /* Rahmenfarbe links */
+  border-right: lightskyblue 2px solid;   /* Rahmenfarbe rechts */
+  border-bottom: lightskyblue 1px solid;   /* Rahmenfarbe unten */
 }
 
 /* .task-item:nth-child(even) {     
@@ -204,6 +217,7 @@ body {
 .task-item-text {
   flex: 1;
   border-right: 1px solid #e5e5e5;
+  
 }
 
 .task-item-actions {
@@ -211,6 +225,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
+
 }
 
 /* Task Input */

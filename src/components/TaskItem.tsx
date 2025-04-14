@@ -243,13 +243,13 @@ function TaskItem({
             onClick={saveTask}
             className="btn btn-save"
           >
-            Speichern
+            Save
           </button>
           <button 
             onClick={() => onSave(task)}
             className="btn btn-cancel"
           >
-            Abbrechen
+            Cancel
           </button>
         </div>
       </div>
@@ -276,7 +276,7 @@ function TaskItem({
             e.stopPropagation();
             onToggleDone();
           }}
-          className={`btn btn-done ${task.isDone ? 'text-green-600' : ''}`}
+          className="btn btn-done"
         >
           ✓
         </button>
