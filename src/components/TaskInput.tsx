@@ -221,7 +221,7 @@ function TaskInput({ onAddTask }: TaskInputProps) {
           onClick={handleAddTask}
           className="btn btn-add"
         >
-          Hinzufügen
+          Add
         </button>
       </div>
     </div>
