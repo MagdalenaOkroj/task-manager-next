@@ -29,7 +29,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 16px;
-  background-color: rgb(255, 218, 204);
+  background-color: rgb(255, 233, 225);     /* Hintergrundfarbe für den Aufgabentafel */
 }
 
 /* Header */
