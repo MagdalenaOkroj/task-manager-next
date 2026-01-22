@@ -37,7 +37,7 @@ function Header({ title, onClear, onPrint, userName }: HeaderProps) {
               className="btn btn-logout"
               title="Abmelden"
             >
-              Abmelden
+              Logout
             </button>
           )}
         </div>

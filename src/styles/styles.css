@@ -58,8 +58,9 @@ body {
   gap: 15px;
 }
 
-.header-title {
-  font-size: 24px;
+.header-title {              /* Task Manager - Titel der App */
+/*   font-size: 15px; */        /* Schriftgröße */
+/*   font-style: italic; */      /* Schriftstil Kursiv */
   font-weight: bold;
   color: #333;
   margin: 0;
@@ -67,11 +68,12 @@ body {
 
 .header-main-buttons {
   display: flex;
-  gap: 8px;
+  gap: 4px;
 }
 
 .user-name {
   font-weight: 500;
+  font-size: 15px;        /* Schriftgröße des Namens mit Begrüßung*/
 }
 
 /* Buttons */
